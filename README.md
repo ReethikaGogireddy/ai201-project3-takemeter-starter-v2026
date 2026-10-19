@@ -42,6 +42,7 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+ - I choose a subreddit called AsianBeauty, which is a place to discuss beauty brands, cosmetics and skincare. The classifier sorts in the posts into discussion of a product, product recommendation based on their skin type, and review of a product.
 
 
 ---
