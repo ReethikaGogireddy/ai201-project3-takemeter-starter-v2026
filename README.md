@@ -59,30 +59,80 @@
 
 **Definition:**
 
+Review : The person primarily evaluates a product based on their own experience.
+
 **Example 1:**
->
+> Skin type: Oily
+
+Standards of review: I don't love being super shiny due to my natural oiliness, I want to enjoy putting the sunscreen on and not be bothered by it throughout the day
+
+Beauty of Joseon - was my first Korean sunscreen, nice feeling on my skin, moisturizing, didn't make me too oily but forehead was very shiny, reapplication felt greasy sometimes, might be better for winter 7/10
+
+Beauty of Joseon Aqua - not too shiny of a finish, reapplication never felt heavy, just felt great to use tbh (favorite so far) 9/10
+
+House of hur weightless - very light and fluid, finish is matte which I loved, stung my eyes badly tho also pilled if I rubbed my face 6/10
+
+Cosrx - not as moisturizing as BOJ but felt nice and light, kind of made my face sweat, slightly tacky feeling 6/10
+
+Skin 1004 - very pleasant to use, dewyness I can tolerate, a tiny bit of a white cast on me but I am pale so not a problem for me, not sure if the centella had a calming effect on my skin but it felt like it totally absorbed into my skin after a while and left a nice hydrating feel 9/10
+
+Scinic mild - pleasant finish, not particularly moisturizing, nothing crazy but totally solid choice especially for the price 8/10
+
+Anuaheartleaf - thicker lotion-like texture, moisturizing, slightly dewy finish, very slight eye sensitivity for me, felt tacky for a long time 7/10
 
 **Example 2:**
->
+> I got this from a YesStyle giveaway and just had to write about it!
+
+I have dry-leaning combo sensitive skin prone to acne, and I’d been dealing with a compromised skin barrier that’s been taking forever to heal. I put this on one night and my redness and irritation immediately calmed down the next morning! It doesn’t feel heavy or greasy and feels sufficiently hydrating for my skin and the year-round dry climate I live in.
+
+It’s a watery lotion-like consistency that doesn’t immediately melt into your skin and has a slight give similar to mineral sunscreen. The finish doesn’t feel sticky or tacky, though. It also leaves a slight blue tint to the skin, so i think I’ll only use this at night. While I don’t love that it’s not a more buttery absorption, I do love the results and will keep this in my rotation for when my skin barrier needs extra support!
 
 ### `label_two`
 
 **Definition:**
-
+Discussion : The person raises an observation/question/opinion and invites others to discuss or share similar experiences.
 **Example 1:**
->
+> it seems to me that since the Skin1004 Centella Ampoule started getting some awards and notoriety recently, the “powers that be” decided to add approx. $9-$10 on the price on Amazon and other retailers.
+
+I’ve purchased this ~5 times, each for about $16 or less. Adding $9 to the cost because it got some awards really aggravates me.
+
+(The dip to $12.89 this month was for the Prime Day deals)
 
 **Example 2:**
->
+> I bought this 2aN lip gloss in Cool Up shade 6 months ago and have only used it on a trip once. It was a nice lavender shade. However, yesterday I opened the drawer and saw this... The color of this lip gloss has turned completely green opague, but no strange smell. I do keep it in a cool dry place. On my arm swatch, it looks mostly translucent with a bit of green. Has it gone bad?
+
+
+### `label_three`
+
+**Definition:**
+Guide : The person asks for or provides guidance about what product to choose or how to use something.
+
+**Example 1:**
+> okay so most of us have purchased etude water tint out of the hype created but while applying if you leave it for more then 1 millisecond then it will stain and becomes very difficult to blend
+
+i have found that the best way to apply is by tapping your fingertips on the applicator and then applying on face in this way no tension of it staining and you can easily build up the coverage
+
+**Example 2:**
+> I’m going to Thailand for the first time in a couple of months. I’m obsessed with kbeauty products already and have heard great things about Thai ones. What would you guys recommend checking out makeup, skincare and perfume wise? Anything beauty related tbh even clinics and spas.
+
+I’m staying in Bangkok for about 5 nights before heading to other parts of the country.
+
+I already have Johnson’s baby powder colognes in mind, as I love musk scents! I love lip stains and glosses too.
+
+I’m also on a high dose of Accutane and will be while I’m there so sunscreen or clothing and hat recommendations are also welcome!
+
 
 ### The hardest boundary
 
 **Which two labels:**
 
+ Guide and Discussion
+
 **The decision rule I used every time:**
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
 
+If the post asks for guidance on what product to choose or how to use a product, classify it as Guide. If it primarily asks others for their opinions or whether they had the same experience, classify it as Discussion.
 
 
 ---
