@@ -55,11 +55,11 @@ whether you hit them:
 
 <!-- Your criterion. It must name a number. -->
 
-
+When I label the same 5 posts twice, I should assign the same label at least 5 out of 5 times.
 
 **Why this target:**
 
-
+I chose 5 out of 5 because my label definitions are clear, and I have a decision rule for ambiguous cases.
 
 ---
 
@@ -67,11 +67,12 @@ whether you hit them:
 
 <!-- Your criterion. -->
 
+Each of the three labels should atleast have an F1 score of atleast 0.80.
 
 
 **Why this target:**
 
-
+I chose an F1 score of 0.80 because I want the model to perform well for all three labels instead of performing well on one label and poorly on another.
 
 ---
 
@@ -79,10 +80,10 @@ whether you hit them:
 
 <!-- Your criterion. -->
 
-
+The classifier should correctly classify at least 80% of the posts in the held-out test set.
 
 **Why this target:**
-
+I chose 80% because I want the classifier to correctly identify the majority of unseen posts and perform meaningfully better than guessing among three labels.
 
 
 ---
@@ -91,23 +92,23 @@ whether you hit them:
 
 <!-- Your criterion. -->
 
+No single label should make up more than 70% of the 200 labeled posts.
 
 
 **Why this target:**
-
-
-
+I chose 70% because I want each label to have enough examples for the model to learn from instead of having one label dominate the dataset.
 ---
 
 ## 5.
 
 <!-- Your criterion. -->
 
+For predictions with a confidence score of at least 80%, at least 60% of those predictions should be correct.
 
 
 **Why this target:**
 
-
+I chose these values because when the model is highly confident about a prediction, I expect that prediction to be correct most of the time.
 
 ---
 
