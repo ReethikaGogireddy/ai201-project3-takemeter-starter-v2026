@@ -219,15 +219,15 @@ Review and dicussion labels have fewwe than 8 in test.
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:*  I used AI for change the post format into csv format.
+- *What came back:* The data came back in the format of post.
+- *What I changed:* I did not change anything cause that was the format that I wanted but I verfied if it labelled correctly.
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked AI to generate eight posts that were difficult to distinguish between my Review, Discussion, and Guide labels.
+- *What came back:*  AI generated eight ambiguous posts that could potentially fit more than one label.
+- *What I changed:* I classified the posts myself and noticed that Discussion and Guide were the hardest to separate. I then created a decision rule: if a post asks for guidance on what product to choose or how to use it, I label it Guide; if it mainly asks others to share opinions or similar experiences, I label it Discussion.
 
 **Pre-labelling disclosure:**
 
