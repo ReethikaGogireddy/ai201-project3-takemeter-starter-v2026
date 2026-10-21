@@ -143,18 +143,19 @@ If the post asks for guidance on what product to choose or how to use a product,
      cases. -->
 
 **Where the posts came from:**
+The posts came from AsianBeauty subreddit from reddit.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected? Say so plainly — the disclosure is required, not penalised. -->
+I cold labelled them first 20, then checked whether the pre-labelled posts with AI are correct.
 
 **Counts per label:**
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+| Review | 38 | 25.33 |
+| Guide |  66 | 44 |
+| Discussion | 46 | 30.67  |
+| **Total** | 155  | 100% |
 
 **Three hard cases**
 
@@ -163,25 +164,26 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 **1.**
 > *The post:*
->
+> This is unfortunately my favorite daily sunscreen... I'm seriously doubting the efficacy of this product... Has anyone had a similar experience?”
 > *Could have been:*
->
+> review or discussion
 > *I chose, because:*
-
+I chose discussion because the post includes the user's personal experience with the sunscreen, which could make it a review, but its main purpose is asking whether other people have had the same experience with the product.
 **2.**
 > *The post:*
->
+> I've been using this for a few weeks and it honestly does such an amazing job at mattefying my face... does anyone else have this problem?... if anyone has any better recs id be very interested tho
 > *Could have been:*
->
+>review or guide
 > *I chose, because:*
+I chose review, the post asks for recommendations, but most of the post evaluates the product based on the user's experience, including its performance, problems, and overall opinion.
 
 **3.**
 > *The post:*
->
+> I placed my first ever Yesstyle order on the 10th, and received it in less than 7 days!... Hope this helps anyone!
 > *Could have been:*
->
+> review or discussion
 > *I chose, because:*
-
+I chose review because the post discusses YesStyle and compares it with Stylevana, but the main purpose is describing and evaluating the user's personal shopping experience.
 ---
 
 ## The Training Run
