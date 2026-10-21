@@ -5,6 +5,6 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+review: evaluates a product based on the user's personal experience using it
+discussion: discusses observations, opinions, questions, or issues related to a specific beauty product or topic
+guide: provides or asks for guidance on what product to choose or how to use a product

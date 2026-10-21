@@ -191,14 +191,18 @@ I chose review because the post discusses YesStyle and compares it with Stylevan
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
 **Base model:**
+ mps  (Apple Silicon GPU (MPS))
 
 **Settings:** <!-- epochs, learning rate, batch size, seed -->
+seed 42, 3 epochs, lr 2e-05, batch 16
 
 **Anything I changed from the defaults, and why:**
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+I did not change anything.
+
+**Split sizes:** <!-- train / val / test, and per-label counts in the test split. If a label had fewer than about 8 in test, say so — it explains a lotof next unit's variance. -->
+
+Review and dicussion labels have fewwe than 8 in test.
 
 
 
