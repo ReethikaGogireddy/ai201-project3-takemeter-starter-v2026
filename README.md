@@ -284,11 +284,11 @@ So, there is a gap between the  baseline and the trained one, the overall accura
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+| true \ predicted | review | discussion | guide |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **review** | 0 | 0 | 3 |
+| **discussion** | 0 | 0 | 6 |
+| **guide** | 0 | 0 | 14 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
