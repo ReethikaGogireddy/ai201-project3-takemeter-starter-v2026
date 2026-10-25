@@ -1,0 +1,149 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 23,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 23,
+    "accuracy": 0.43478260869565216,
+    "f1_macro": 0.46835748792270526,
+    "per_label": {
+      "discussion": {
+        "precision": 0.35294117647058826,
+        "recall": 1.0,
+        "f1": 0.5217391304347826,
+        "support": 6
+      },
+      "guide": {
+        "precision": 1.0,
+        "recall": 0.07142857142857142,
+        "f1": 0.13333333333333333,
+        "support": 14
+      },
+      "review": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999,
+        "support": 3
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "[Skin type] oily, sensitive, and acne prone. + Seasonal dryness issues \ud83e\udebe[climate] summer \u2014> fall big temperature gaps through the day, and dry overall **[current routine]** - **day routine**: toner(laneige)-cream(ongridients)-facial mist(aestura)-sun block(aestura) -**night routine**: day routine+isoi acne dr, primera pdrn nia serum *nothing on my routine is scented or colored bc i have very sensitive skin. **Ongridients skin barrier calming lotion** Duaration: 5 months ***9.5/10 (could feel a bit slippery to use on a hot day)*** Using it whenever i feel like my skin barrier is getting weak. (every day, night) How i use it: Whenever my skin starts looking red or feeling rough, I soak a cotton pad with this and leave it on the irritated spot overnight (or before bed). By the next morning, my skin is completely calmed down and back to normal. it went viral in Korea last year Cons**:** Hard to find / not widely available, and rarely goes on good sales. **Primera PDRN-Niacinamide 10% Toning Glow Serum** Duration: 1month_should've got it sooner ***100/10.*** Using it only in the night time, once every 1-2 days. **THE BEST SERUM of the year**- made my skin shiny, and also doesn't irritate your skin either. I have very sensitive skin, but it wasn't a problem at all. cons: a bit small for its price, but worth it. **Cream Skin Zincpep Toner & Gel Moisturizer** Duration: 6 months ***8/10*** Every day, and night. A solid toner. Can't find a better toner that doesn't clog your pores and also hydrates your skin properly with this price. **ISOI ACNI Dr.1st Control Serum** Duration: 1 year ***7/10*** 2-3 time a week. just cause i have the product lol The product itself it a really good one if you have a lot of breakouts. I used to love this, but now I might not get a new one after this, cause my skin doesn't need acne products for now. But still a good product for acne with good ingredients. **ATOBARRIER365 CREAM MIST** Duration: 1 month ***9/10*** use it throughout the day. needed a face mist, cause my skin gets easily oily without hydration Can't go wrong with an Aestura product. good for keeping your skin hydrated for the day, and helps maintain a strong skin barrier",
+      "gold": "review",
+      "predicted": "review"
+    },
+    {
+      "text": "Anyone tried both products? How do they fare in comparison to each other? I am 1.5 in tip concealer (a tad too red and a bittt too dark for me after oxidation, but not super noticeable). Otherwise found it rather easy to work with. Am looking to get the triple pot concealer 01 Clear Beige for more colour correcting options, but worried it might be too light for me. What do you guys think?",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "I\u2019m a mixed-race black/white/Latino guy, living in the Seattle area which is a temperate rainforest technically. I have combo dry skin and I was traveling in SE Asia, Germany, Spain, the American SW, so places where I needed sunscreen and was wearing shorts and T-shirts most of the time. Reviews are all copied and pasted below but also in the slides. Biore Uv Aqua Rich Watery Essence \ud83c\uddef\ud83c\uddf5 - 9/10 Absorbs well. Has a bit of a grainy quality but it\u2019s extremely slight. Doesn\u2019t really add moisture to the skin. Fine to reapply during the day and waterproof. Never used on face. Biore Athlizm Spray \ud83c\uddef\ud83c\uddf5 - 6/10 It\u2019s fine, it is just a bad value for the money. The spray evaporates really quickly so it\u2019s hard to tell where you applied it. Must prefer the cream Biore Athlizm Cream \ud83c\uddef\ud83c\uddf5 - 9/10 Really the GOAT for anything outdoor, sweaty or swimming. You feel like a duck with it on. It stuck all day when I was in Singapore or swimming in the hottest days in Seattle. Not an everyday sunscreen, but the best for what it does. Haruharu wonder black rice airyfit \ud83c\uddf0\ud83c\uddf7 - 3/10 It piles on the face and body for me. Not waterproof so maybe best in winter. It may have to do with me putting too much on, but despite all the hype around it, wouldn\u2019t buy it again Nivea UV super water gel \ud83c\uddef\ud83c\uddf5 - 8/10 goes on very easily and disappears into the skin. Like the pump that you can refill. Not waterproof so prob best for winter/cooler months. Mediheal Madecassoside moisture sun serum \ud83c\uddf0\ud83c\uddf7 - 7/10 Applies as a liquid but absorbs instantly. You don\u2019t need to reapply during the day. Waterproof and pretty much invisible. It does pill like every other Korean sunscreen on me. Wish it didn\u2019t. Holika Holika aloe waterproof sunscreen \ud83c\uddf0\ud83c\uddf7 - 9/10 Smells pleasant like aloe vera. Ok to reapply throughout the day without piling. Leaves a very slight white cast in the elbow but that\u2019s about all I can say bad about it. Didn\u2019t use it on my face. House of Hur Weightless \ud83c\uddf0\ud83c\uddf7 - 5/10 No smell. Goes on very liquid and disappears with no glow. It seems to pill on the face around the neck but not on the body. Senka UV water Gel \ud83c\uddef\ud83c\uddf5 - 7/10 It goes on a bit sticky but does dry. Leaves a white cast as it has zinc oxide in it. Def feels waterproof. Would use this in hot weather or swimming for sure. No smell. Fine to reapply. Beauty of Joseon Relief Sun Aqua Fresh \ud83c\uddf0\ud83c\uddf7 - 5/10 It pills on the face, back of the neck and ears but it\u2019s fine on the body. Feels like lotion on the body so I like that. KISS ME MOMMY! UV Aqua Milk Sunscreen SPF50+ PA++++ \ud83c\uddef\ud83c\uddf5 - 8/10 It\u2019s waterproof, it dissolves into the skin, it\u2019s great for the face. It does pill a little bit on my neck when I reapplied. It has no scent and it\u2019s mild enough to use on a 1 year old baby. SCINIC Enjoy Super Mild Sun Essence \ud83c\uddf0\ud83c\uddf7 - 8/10 Great on first application, but it does pile on second application after a while. No white cast. No smell. Very light. Not waterproof. Does pile less than some others, will try applying less. Really want to love this one! Nivea UV Super Water Essence EX \ud83c\uddef\ud83c\uddf5 - 9/10 Wonderful smell. Goes on like a creamy gel then disappears. Fine to reapply. Love it! Fine on face, but it is pretty shiny. Skin Aqua Super Moisture UV Gel \ud83c\uddef\ud83c\uddf5 - 10/10 Great on face or body. Fine to reapply without pilling as it is a fine gel-like cream. Not too shiny. Waterproof. Very moisturizing ingredient list so works as a lotion. Might be perfect. Biore Aqua Rich Watery Gel \ud83c\uddef\ud83c\uddf5 1/10 - Has titanium dioxide which immediately made me look sickly white. It also pills up on the skin after first application with no other product underneath. I thought I couldn\u2019t dislike any Japanese sunscreen but here I am. Nivea Deep Protect & Care gel \ud83c\uddef\ud83c\uddf5 - 8/10 Feels very moisturizing on my skin. I like the scent but it does smell like mosquito repellent when you put it on. Don\u2019t know if I\u2019m going to try it on face for that reason. Feels like I have nothing on after applying. Really good body sunscreen. Biore UV Aqua Rich Airy Hold Cream \ud83c\uddef\ud83c\uddf5 - 5/10 Goes on very thick, like soft serve ice cream or Greek yogurt. At first it leaves a white tint, but you can rub it in. It doesn\u2019t feel moisturizing per se but def feels like it\u2019s sticking to your skin. Has titanium dioxide so I don\u2019t think I\u2019d use it on my face. I\u2019ll use it up on my body but wouldn\u2019t buy again. Nivea UV Super Water Gel Ex \ud83c\uddef\ud83c\uddf5 - 10/10 Big ass bottle at 270g. Good deals on Yami. Goes on matte. Fine to reapply. Need to try on face. Tage Cica-Tree Water Jelly Sun Serum \ud83c\uddf0\ud83c\uddf7 - 6/10 It\u2019s ok. It does pill a little around the folds of my neck upon reapplication, but that\u2019s it. It goes on a bit shiny. The consistency is a bit chunky so it doesn\u2019t come out of the tube consistently. It can come out a lot at once and it\u2019s impossible to avoid. Wouldn\u2019t buy again. Nivea Men Uv Protector \ud83c\uddef\ud83c\uddf5 - 4/10 Too small. Smells funny. Pills on me on first application. Kose Suncut Uv Perfect Essence \ud83c\uddef\ud83c\uddf5 - 7/10 Great size. Really moisturizing. Goes into skin and beard well. It does pill a little around my neck after reapplication. Great ingredients like Squalane and other soothing extracts. Hatomugi UV care and moisturizing spf 50+ \ud83c\uddef\ud83c\uddf5 - 9/10 Big bottle. Very pleasant feeling and smell on the skin. Seemed fine on face. Doesn\u2019t seem to be waterproof but great for daily use. Nivea UV Super Water Essence Ex \ud83c\uddef\ud83c\uddf5 - 10/10 Really just as good as the gel. Slightly more moisturizing and a little less product for the money. Regardless, you put it on and a second later you\u2019d never know it was on your face. Can reapply all day without pilling",
+      "gold": "review",
+      "predicted": "review"
+    },
+    {
+      "text": "Angel\u2019s Powder Enzyme Powder Cleanser for Face \u2013 Gentle Exfoliating Facial Wash for Sensitive Skin, Korean Skincare, pH 5.5 Has anyone tried or heard of this cleanser? If you\u2019ve tried it, whats it like? Is it stripping, drying, gives you that squeaky clean feeling afterwards? How much does it foam up? Can it be used as a gentle exfoliator daily? How long would a 150g bottle last? Tell me all about it.",
+      "gold": "discussion",
+      "predicted": "discussion"
+    },
+    {
+      "text": "I am looking for eye patches that help me depuff my eyes in the morning especially after a bad night of sleep or crying lol so I was thinking of getting these eye patches as they contain \u201ccaffeine\u201d. I would love to hear from those of you who tried them, do they really work ? If not, do you have better recommendations?",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Hi everyone, I have searched but some of the older recommendations for soft/muted autumn lip products are now discontinued. Hoping for some current AB recommendations for soft or muted autumn lipstick shades? My preference is satin to soft matte (nothing too glossy), something comfortable for really dry lips. The only thing I've tried so far is the Joocyee Velvet Rouge in a few shades and while the colours are lovely, I have to use such a light hand as they are too pigmented and drying on my lips. Thank you so much! \ud83d\ude04",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "this is their ambition palette. only one or two shades are actually well pigmented. All the glitters are really chunky and look really spotted. All of the colours are darker than advertised. also it feels a bit like a paste, I thought they came in the form of pressed powders but that might just be my mistake. this was from the official website so I'm not sure if this was a fluke, but from what was posted online it appeared to be a much better quality palette? considering contacting their support but I wanted to see here if anyone knew if this was normal. I got one other palette, same deal with all the glitters being the wrong shade and really big + patchy. none of their mattes showed up on my skin tone. I am a bit tan. Edit: I have come to the conclusion that it may be both just my personal preference, and specific to this palette as a lot of ppl have really good experiences with their others. However, for the price for so many colours I'm still pretty happy with it, just a bit taken aback at first.",
+      "gold": "review",
+      "predicted": "review"
+    },
+    {
+      "text": "Is there anywhere online that shops to the US that I can buy *only* the refill of the Fwee Glass Cushion. It's my new holy grail foundation but I don't want to waste plastic and buy the compact every time I need to buy new foundation. My shade is peach glass.",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "I'm deciding between a couple of different sunscreens and one thing I hear from some threads here is that a particular sunscreen, like BoJ Aqua, can pill. I'm a man and I don't wear makeup. I haven't gotten into skincare that seriously until recently when I started tretinoin for some stubborn acne and sort of ended up building an entire routine. I've never used a chemical sunscreen before. Is pilling a phenomenon that mainly occurs when your skincare is interacting with your makeup? Can I ignore complaints about pilling if I don't wear makeup? Thanks for your insight!",
+      "gold": "discussion",
+      "predicted": "discussion"
+    },
+    {
+      "text": "I searched on Pinterest and on YT, but haven't yet found any decent examples of how to do Asian makeup on a Caucasian face. When I try to replicate any video tutorial on my face, it just looks weird, especially when it comes to the eyes. So I'm wondering is it really possible? For the reference, my face is super default, nothing special: almond eyes, double eyelid, average eye spacing, neutral canthal tilt.",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Hi!! With the upcoming winter season I\u2019ve been thinking of getting a new product to help with the dryness and I wanted to ask what everybody uses? I have combination dry skin so these days during fall my skin has been getting a bit dry and flaky and during winter it gets even worse. I\u2019ve thought of incorporating an essence or like a milky toner in my routine but I\u2019m not sure if I should just get a thicker moisturizer instead. What has worked for you guys during colder seasons? :))",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Hi! I can\u2019t tell how people feel about the BOJ rice mask. I tried the red bean a couple years ago but felt like it was so drying. I haven\u2019t been keeping up with my skincare routine the best I could be and I\u2019m trying to have a reset! What\u2019s your favorite \u201cdetoxing\u201d mask?",
+      "gold": "guide",
+      "predicted": "review"
+    },
+    {
+      "text": "Hi everyone! I recently purchased a Dr.Melaxin kit from TikTok shop. I was curious if they changed one of the item to say \u201cCemenrete Cyano Pink Spicule\u201d to \u201cSerum Cyano Pink Spicule Serum? because Ive seen two different versions or is there a reason for this?",
+      "gold": "discussion",
+      "predicted": "discussion"
+    },
+    {
+      "text": "context: - i have a big ceremony coming up in early december and i am inviting my found family. these are the first ppl in my life to help me feel truly supported, seen, and loved. i already know im gna cry, SO . . . in your experience, what has been the most cry-proof, sweat-proof, budge-proof makeup and techniques? i\u2019m talking eyes, base, lips, but anything flies! i\u2019ve seen similar discussions but i\u2019d love to hear new updates :D so far, here are my findings: - canmake creamy touch liner (but will come off if rubbed) - millefee shake drop blush (wore from 1 pm - 3 am and cried. she was secure)",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Wondering if anyone\u2019s ever tried to use the majority of one lines product in their routine and see if there\u2019s any noticeable difference? For example: torriden dive in toner works well on my skin, would it be smart for me to incorporate their serum + moisturizer + sunscreen?",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Hello, does anyone know of any stores in New York City that carry DHC products? I believe they are a Japanese brand. Thank you so much!",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Aestura ATOBARRIER365 Gentle pH-Balancing Foaming Cleanser for Hydrating Sensitive Skin. This Aestura face cleanser looks great. I'd love to hear what's been your experience with it? Does it dry up the skin too much? How is the cleansing power? I'd like a face cleaner that cleans but doesn't over strip it. Please tell me the good and the bad. What do you like the most about this Aestura cleanser? what you don't like? If you can tell me you skin type that would be helpful too.",
+      "gold": "discussion",
+      "predicted": "discussion"
+    },
+    {
+      "text": "I\u2019ve seen a lot of people bring up PDRN lately and how it helps with dark under eyes. I purchased a pdrn stick product but i\u2019m realizing it might not be as effective seeing discussions in different threads. Has anyone used pdrn topically and gotten results? Im seeing people say injections are much more effective from an aesthetician but that there are micro needling products you can get yourself. I have dark circles from being on the lighter side due to a medical condition and I want to be rid of them.",
+      "gold": "discussion",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Hi everyone, I\u2019ve had acne for years, finally found a routine that my skin agrees with and no more acne. Now i can\u2019t get my moisturizer anywhere online anymore. It\u2019s the cow brand moist milk. I\u2019m so so so sad and frustrated. I really don\u2019t want to go back to my acne. Does anyone know how to get this in the Netherlands? I\u2019m scared to try anything new. I\u2019ve tried so many moisturizers and everything clogges my pores. I\u2019m desperate! Thanks",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "Is there a better way to apply these types of blushes? What do you use or recommend? Or is there a technique to better build color payout with the applicator it comes with? I love when people have tried different methods that work for them \ud83d\udc95",
+      "gold": "guide",
+      "predicted": "discussion"
+    },
+    {
+      "text": "hello! i am trying to choose some bath powders/bath salts to buy on my trip to japan. most of the posts i found discussing them were pretty old so i figured there might it be a lot of newer options by now. i\u2019m interested in the muscle/fatigue benefits, and also just relaxing! i like lavender scent, and generally can\u2019t do anything with an overwhelmingly strong scent. i\u2019d also like to try the onsen-style ones. does anyone have any recommendations? thank you!!",
+      "gold": "guide",
+      "predicted": "guide"
+    },
+    {
+      "text": "I have been using Mugwort Essence for years now, and it is by far my favorite ingredient in skincare. It agrees with my skin so much. I would love to expand my range by trying other great products that have Mugwort aka, Artemisia Vulgaris. I don\u2019t see any quite often, and would love suggestions! :)",
+      "gold": "guide",
+      "predicted": "review"
+    },
+    {
+      "text": "What does it look like irl? In photos, sometimes it looks like a bright neutral red (1st pic), other times it looks like a deep cool red (2nd pic).",
+      "gold": "discussion",
+      "predicted": "discussion"
+    }
+  ]
+}

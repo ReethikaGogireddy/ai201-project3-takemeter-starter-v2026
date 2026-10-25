@@ -245,19 +245,23 @@ Review and dicussion labels have fewwe than 8 in test.
 
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.435 | 0.609 | +0.174 |
+| Macro F1 | 0.468 | 0.252 | -0.216 |
+| F1 — `discussion` | 0.522 | 0.000 | -0.522 |
+| F1 — `guide` | 0.133 | 0.757 | +0.623 |
+| F1 — `review` | 0.750 | 0.000 | -0.750 |
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
 
+I believe that the trained model will work better than baseline.
+
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
 
+So, there is a gap between the  baseline and the trained one, the overall accurary is more than baseline, but the individual one for discussion, review labels is less than the baseline but more for guide label.
 
 
 ---
