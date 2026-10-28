@@ -60,6 +60,9 @@ When I label the same 5 posts twice, I should assign the same label at least 5 o
 **Why this target:**
 
 I chose 5 out of 5 because my label definitions are clear, and I have a decision rule for ambiguous cases.
+Revised in Unit 6: When the classifier predicts the same 5 posts twice, it should assign the same label at least 5 out of 5 times.
+
+Why revised: My original criterion measured my own labeling consistency, but I intended to measure whether the classifier gives consistent predictions for the same inputs.
 
 ---
 
@@ -108,7 +111,11 @@ For predictions with a confidence score of at least 80%, at least 60% of those p
 
 **Why this target:**
 
-I chose these values because when the model is highly confident about a prediction, I expect that prediction to be correct most of the time.
+I chose these values because highly confident predictions should usually be correct.
+
+Revised in Unit 6: The most-confident third of predictions should have an accuracy of at least 60%.
+
+Why revised: The evaluation reports accuracy for the most-confident third rather than accuracy specifically for predictions with confidence of at least 80%, so my original criterion could not be directly measured.
 
 ---
 
