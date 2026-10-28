@@ -307,12 +307,11 @@ The biggest off-diagonal value is 6: six real discussion posts were classified a
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
-
+| 1 | Consistency | 5/5 | **MISSED** | I did not demonstrate 5/5 consistency. |
+| 2 | Per-label F1 | ≥ 0.80 each | **MISSED** | Review = 0.000, Discussion = 0.000, Guide = 0.757. |
+| 3 | Overall accuracy | ≥ 80% | **MISSED** | Accuracy was 60.87% across all three seeds. |
+| 4 | Label balance | No label > 70% | **MET** | No label exceeded 70% of the dataset. |
+| 5 | Confidence | ≥80% confidence → ≥60% correct | **MISSED** | The results did not demonstrate the required ≥80% confidence. |
 **Diagnoses**
 
 <!-- For each miss: the cause, and how you know. The four common causes are:
@@ -324,7 +323,13 @@ The biggest off-diagonal value is 6: six real discussion posts were classified a
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+1. Consistency: My original criterion measured the wrong thing. I intended to test whether the classifier gives the same labels when the same 5 posts are classified twice, so this criterion needs revision.
 
+2. Per-label F1: The model predicted every test post as guide, causing review and discussion to have F1 scores of 0.000. The smaller number of examples for these labels likely contributed.
+
+3. Overall accuracy: Accuracy was 60.87% across all three seeds because the model predicted every post as guide.
+
+5. Confidence: My original criterion could not be directly measured, so I revised it to require at least 60% accuracy on the most-confident third. Seed 7 reached only 57.1%, so the revised criterion was MISSED.
 
 ---
 
@@ -362,14 +367,15 @@ The biggest off-diagonal value is 6: six real discussion posts were classified a
 > *The post:*
 >Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.
 > *Staff said / I said:*
->
-> *My call, and why:*
 >hot_take / Mine: analysis
-I think my analysis label is defensible because the post gives a specific, checkable fact that times are down about 3% since the shoe rules changed and uses that fact to support its conclusion. However, I understand the hot_take label because the claim that shoes are “the whole story” is much stronger than what the single statistic proves. The definition does not make it completely clear how to classify a post that uses a checkable fact to support an overly strong conclusion.
+> *My call, and why:*
+> I think my analysis label is defensible because the post gives a specific, checkable fact that times are down about 3% since the shoe rules changed and uses that fact to support its conclusion. However, I understand the hot_take label because the claim that shoes are “the whole story” is much stronger than what the single statistic proves. The definition does not make it completely clear how to classify a post that uses a checkable fact to support an overly strong conclusion.
+
 > *Which pile:*
 the rule is ambiguous here and my reading is defensible.
 
 **What the pattern in my disagreements tells me:**
+
 I agreed with the staff on 29 out of 30 posts, so I was generally consistent when applying the written taxonomy. My only disagreement was about the boundary between analysis and hot_take, specifically whether a checkable fact is enough for analysis when the conclusion goes beyond what that fact can fully support. I had no pile (a) disagreements where I clearly applied an existing rule loosely.
 
 
