@@ -295,6 +295,7 @@ So, there is a gap between the  baseline and the trained one, the overall accura
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
 
+The biggest off-diagonal value is 6: six real discussion posts were classified as guide. Three real review posts were also classified as guide. The model predicted every test post as guide, which means it did not learn to distinguish discussion or review from guide.
 
 
 ---
@@ -335,7 +336,7 @@ So, there is a gap between the  baseline and the trained one, the overall accura
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 29 / 30 = 96.7%%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -359,24 +360,17 @@ So, there is a gap between the  baseline and the trained one, the overall accura
 
 **1.**
 > *The post:*
->
+>Times are down about 3% since the shoe rules changed, so obviously the shoes are the whole story and the sport has a problem.
 > *Staff said / I said:*
 >
 > *My call, and why:*
->
+>hot_take / Mine: analysis
+I think my analysis label is defensible because the post gives a specific, checkable fact that times are down about 3% since the shoe rules changed and uses that fact to support its conclusion. However, I understand the hot_take label because the claim that shoes are “the whole story” is much stronger than what the single statistic proves. The definition does not make it completely clear how to classify a post that uses a checkable fact to support an overly strong conclusion.
 > *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
+the rule is ambiguous here and my reading is defensible.
 
 **What the pattern in my disagreements tells me:**
-
+I agreed with the staff on 29 out of 30 posts, so I was generally consistent when applying the written taxonomy. My only disagreement was about the boundary between analysis and hot_take, specifically whether a checkable fact is enough for analysis when the conclusion goes beyond what that fact can fully support. I had no pile (a) disagreements where I clearly applied an existing rule loosely.
 
 
 ---
