@@ -410,13 +410,13 @@ Yes. Before balancing the data, the model predicted every test post as guide. Af
 ## What's Still Broken
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
-
-
+The model still cannot recognize discussion, predicting all 7 as guide. I would add more clear discussion examples.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
-<!-- Two sentences. Your confusion matrix is the evidence. -->
 
+<!-- Two sentences. Your confusion matrix is the evidence. -->
+I intended discussion and guide to be distinct, but the model still confuses them, as shown by the confusion matrix.
 
 
 <!-- ═════════════════════════════════════════════════════════════════════
